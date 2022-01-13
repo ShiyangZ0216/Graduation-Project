@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>test code</title>
+
+</head>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./index.css">
+	<title>你画我猜</title>
+  </head>
+
+<body>
+
+<div class='container'>
+	<div class='CreateST'>
+		<button id="Createuser">Create New User</button>
+		<button id="Createorjoinroom">Create or Join Room</button>
+		<button id="Leaveroom" disabled>Leave Room</button>
+	</div>
+	<div class='ChatST'>
+		<div id="chatContent"></div>
+		<input id="chatInput" type="text">
+		<button id="sendButton" disabled>Send</button>
+	</div>
+	<div class='VideoButton'>
+		<button id="camera" disabled>Open Camera</button>
+		<button id="call" disabled>Call</button>
+		<button id="endcall" disabled>Hang Up</button>
+	</div>
+	<div class='VideoContainer1'>
+        <div id="Name0"></div>
+		<video id="Video1" autoplay></video>  
+	</div>
+	<div class='VideoContainer2'>
+        <div id="Name1"></div>
+		<video id="Video2" autoplay></video>  
+	</div>
+	<div class='VideoContainer3'>
+        <div id="Name2"></div>
+		<video id="Video3" autoplay></video>  
+	</div>
+	<div class='VideoContainer4'>
+        <div id="Name3"></div>
+		<video id="Video4" autoplay></video>  
+	</div>
+	<div class='VideoContainer5'>
+        <div id="Name4"></div>
+		<video id="Video5" autoplay></video>  
+	</div>
+	<div class='VideoContainer6'>
+        <div id="Name5"></div>
+		<video id="Video6" autoplay></video>  
+	</div>
+	<div class='Drawpanel'>
+		<canvas id="Canvas" width="800" height="600"></canvas>
+	</div>
+	<div class='Drawoptions'>
+		<input type="color"  id='Color'>
+		<input type="range"  id='Weight'  value="线条" min="5" max="25">
+		<button id="Pen" disabled>Pen</button>
+		<button id="Eraser" disabled>Eraser</button>
+		<button id="Undo" disabled>Undo</button>
+		<button id="Clear" disabled>Clear</button>
+		<button id="Ready" disabled>Ready</button>
+		<button id="Play" disabled>Play</button>
+		<div id="timer"></div>
+		<div id="reminder"></div>
+	</div>
+	<div class='Ranking'>
+		<p id="scores">Ranking List</p>
+		<p id="player1"></p>
+		<p id="player2"></p>
+		<p id="player3"></p>
+		<p id="player4"></p>
+		<p id="player5"></p>
+		<p id="player6"></p>
+	</div>
+	<script src='/socket.io/socket.io.js'></script>
+	<script src='js/Client.js'></script>
+</div>
+	</body>
+	</html>

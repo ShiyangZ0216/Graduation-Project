@@ -1,0 +1,285 @@
+html, body {
+    background-color: #4b5152;
+    position: relative;
+  }
+
+#Canvas {
+    background-color: #FFFFFF;
+    position:absolute;
+    left:500px;
+    top:300px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+
+.VideoContainer1 {
+    background-color: #FFFFFF;
+    position:absolute;
+    left:5px;
+    top:300px;
+    width: 320px;
+    height: 260px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+  
+.VideoContainer2 {
+    background-color: #FFFFFF;
+    position:absolute;
+    left:5px;
+    top:10px;
+    width: 320px;
+    height: 260px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+  
+.VideoContainer3 {
+    background-color: #FFFFFF;
+    position:absolute;
+    left:385px;
+    top:10px;
+    width: 320px;
+    height: 260px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+  
+.VideoContainer4 {
+    background-color: #FFFFFF;
+    position:absolute;
+    left:765px;
+    top:10px;
+    width: 320px;
+    height: 260px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+  
+.VideoContainer5 {
+    background-color: #FFFFFF;
+    position:absolute;
+    left:1145px;
+    top:10px;
+    width: 320px;
+    height: 260px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+  
+.VideoContainer6 {
+    background-color: #FFFFFF;
+    position:absolute;
+    left:1525px;
+    top:10px;
+    width: 320px;
+    height: 260px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+
+  #Createuser {
+    position:absolute;
+    left:330px;
+    top:300px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+  
+  #Createorjoinroom {
+    position:absolute;
+    left:330px;
+    top:340px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+
+  #Leaveroom {
+    position:absolute;
+    left:330px;
+    top:380px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+
+  #camera {
+    position:absolute;
+    left:330px;
+    top:440px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+
+  #call {
+    position:absolute;
+    left:330px;
+    top:480px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+
+  #endcall {
+    position:absolute;
+    left:330px;
+    top:520px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+
+  #Pen {
+    position:absolute;
+    left:520px;
+    top:920px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+
+  #Eraser {
+    position:absolute;
+    left:640px;
+    top:920px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+
+  #Undo {
+    position:absolute;
+    left:760px;
+    top:920px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+
+  #Clear {
+    position:absolute;
+    left:880px;
+    top:920px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+
+  #Color {
+    position:absolute;
+    left:1000px;
+    top:920px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+  
+  #Weight {
+    position:absolute;
+    left:1120px;
+    top:920px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+
+  #Ready {
+    position:absolute;
+    left:250px;
+    top:600px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+
+  #Play {
+    position:absolute;
+    left:250px;
+    top:640px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+
+  #timer {
+    background-color: #FFFFFF;
+    position:absolute;
+    left:250px;
+    top:750px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+
+  #reminder {
+    background-color: #FFFFFF;
+    position:absolute;
+    left:250px;
+    top:810px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+
+  .Ranking {
+    background-color: #FFFFFF;
+    position:absolute;
+    left:5px;
+    top:580px;
+    width: 200px;
+    height: 320px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+
+  #chatContent {
+    background-color: #FFFFFF;
+    position:absolute;
+    left:1400px;
+    top:300px;
+    width: 400px;
+    height: 500px;
+    border: 1px solid #000;
+    border-radius: 12px;
+    overflow: auto;
+  }
+
+  #chatInput {
+    background-color: #FFFFFF;
+    position:absolute;
+    left:1440px;
+    top:840px;
+    width: 240px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+
+  #sendButton {
+    position:absolute;
+    left:1700px;
+    top:840px;
+    width: 50px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 12px;
+  }

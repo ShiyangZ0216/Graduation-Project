@@ -1,0 +1,9 @@
+ "keywords": [
+    "WebRTC"
+  ],
+  "author": "Zheng Shiyang",
+  "dependencies": {
+    "express": "^4.10.2",
+    "node-static": "^0.7.11",
+    "socket.io": "^2.3.0"
+  },
